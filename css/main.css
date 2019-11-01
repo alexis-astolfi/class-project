@@ -206,7 +206,7 @@ input .form {
 
 }
 
-.features .content-wrapper {
+.features-content-wrapper {
 
 }
 
@@ -214,7 +214,7 @@ article {
 
 }
 
-article.features {
+article .features {
 
 }
 
@@ -234,7 +234,7 @@ p .features-item-description {
 
 }
 
-.reviews .content-wrapper {
+.reviews-content-wrapper {
 
 }
 
@@ -273,7 +273,7 @@ footer .social-icons {
 }
 
 a .contact {
-  
+
 }
 
 .fab {
@@ -293,7 +293,7 @@ a .contact {
 
 }
 
-.mission .content-wrapper {
+.mission-content-wrapper {
 
 }
 
@@ -305,7 +305,7 @@ figure .mission {
 
 }
 
-.map .content-wrapper {
+.map-content-wrapper {
 
 }
 
@@ -313,7 +313,7 @@ figure .mission {
 
 }
 
-.contact-section .content-wrapper {
+.contact-content-wrapper {
 
 }
 
@@ -346,7 +346,8 @@ a .contact-section {
 
 }
 
-.faq-section .content-wrapper {
+.faq-content-wrapper {
+  border-top: 5px violet dotted;
 
 }
 
