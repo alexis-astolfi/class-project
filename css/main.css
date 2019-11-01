@@ -108,6 +108,11 @@ textarea {
 
 header,
 footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 100%;
 
 }
 
@@ -137,15 +142,22 @@ p {
 
 /*------------MOBILE HEADER STYLES---------------*/
 header {
-
 }
 
 header .content-wrapper {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 100%;
 }
 
 header figure {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 100%;
 }
 
 header img {
@@ -153,7 +165,7 @@ header img {
 }
 
 header .header-divider {
-
+  
 }
 
 header nav {
@@ -161,7 +173,11 @@ header nav {
 }
 
 header nav ul {
-
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 100%;
 }
 
 header nav ul li {
@@ -175,10 +191,19 @@ header nav ul li a {
 /*---------mobile styles - homepage, main --------*/
 
 .hero-area {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 100%;
 }
 
-main .content-wrapper {
+.hero-content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 100%;
 
 }
 
@@ -187,19 +212,36 @@ aside {
 }
 
 aside .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 100%;
 
 }
 
-.form-description {
-
+aside .form-description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 100%;
 }
 
-.form {
-
+aside .form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 100%;
 }
 
-input .form {
-
+input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 100%;
 }
 
 .features {
@@ -207,14 +249,20 @@ input .form {
 }
 
 .features-content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 100%;
 
 }
 
-article {
-
-}
-
-article .features {
+article, .features, .reviews {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 100%;
 
 }
 
@@ -227,44 +275,90 @@ p .features-item-description {
 }
 
 .fas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 100%;
 
 }
 
 .reviews {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 100%;
 
 }
 
 .reviews-content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 100%;
+}
 
+.reviews-content {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  flex-flow: row wrap;
+  width: 100%;
 }
 
 article .reviews {
+ 
 
 }
 
 /*------MOBILE FOOTER STYLES-------*/
 
 footer {
-
 }
 
 footer .content-wrapper {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 100%;
 }
 
 footer .footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 100%;
 
 }
 
 footer .contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 100%;
 
 }
 
 footer address {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 100%;
+  text-align: center;
 }
 
 footer .social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 100%;
 
 }
 
