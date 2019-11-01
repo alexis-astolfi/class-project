@@ -98,14 +98,44 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-/*-------------HEADER-FOOTER BASE STYLES-------------*/
+/*
+===================================================
+                HOMEPAGE
+===================================================
+-------------BASE STYLES-------------
+
+*/
 
 header,
 footer {
 
 }
 
-/*------------HEADER STYLES---------------*/
+h1,
+h3,
+h4 {
+
+}
+
+h1 {
+
+}
+
+
+h3 {
+
+}
+
+
+h4 {
+
+}
+
+p {
+
+}
+
+/*------------MOBILE HEADER STYLES---------------*/
 header {
 
 }
@@ -139,40 +169,16 @@ header nav ul li {
 }
 
 header nav ul li a {
-  
+
 }
 
-/*---------mobile styles--------*/
+/*---------mobile styles - homepage, main --------*/
 
 .hero-area {
 
 }
 
 main .content-wrapper {
-
-}
-
-h1,
-h3,
-h4 {
-
-}
-
-h1 {
-
-}
-
-
-h3 {
-
-}
-
-
-h4 {
-
-}
-
-p {
 
 }
 
@@ -236,7 +242,7 @@ article .reviews {
 
 }
 
-/*------FOOTER STYLES-------*/
+/*------MOBILE FOOTER STYLES-------*/
 
 footer {
 
@@ -266,9 +272,89 @@ footer .social-icons {
 
 }
 
+a .contact {
+  
+}
+
 .fab {
 
 }
+
+
+/*
+=======================================
+              ABOUT
+=======================================
+------mobile styles - faq, main -------
+
+*/
+
+.mission {
+
+}
+
+.mission .content-wrapper {
+
+}
+
+figure .mission {
+
+}
+
+.map {
+
+}
+
+.map .content-wrapper {
+
+}
+
+.contact-section {
+
+}
+
+.contact-section .content-wrapper {
+
+}
+
+.contact-section-content {
+
+}
+
+.contact-section-address
+{
+
+}
+
+address .contact-section {
+
+}
+
+a .contact-section {
+
+}
+
+/*
+=========================================
+                FAQ
+=========================================
+
+
+-----mobile styles - about, main------*/
+
+.faq-section {
+
+}
+
+.faq-section .content-wrapper {
+
+}
+
+.faq-question {
+
+}
+
+
 
 /* ==========================================================================
    Helper classes
