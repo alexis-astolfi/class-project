@@ -105,6 +105,10 @@ textarea {
 -------------BASE STYLES-------------
 
 */
+body {
+  max-width: 960px;
+  width: 90%;
+}
 
 header,
 footer {
@@ -230,7 +234,6 @@ input {
 .features-container {
   display: flex;
   justify-content: center;
-  width: 100%;
 
 }
 
@@ -256,39 +259,34 @@ input {
 }
 
 
-
 .reviews-container {
   display: flex;
   justify-content: center;
-  flex-direction: row;
-  width: 100%;
 
 }
 
-.reviews {
+.reviews {;
 
 
 }
 
-.reviews-item {  
+.reviews-item {
   display: flex;
-  justify-content: center;
-  width: 100%;
-  
+  justify-content: flex-start;
+  flex-flow: row wrap;
+
 }
 
 .reviews-article {
   display: flex;
-  justify-content: center;
-  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  flex-flow: column wrap;
+  /*width: 100%;*/
+
 }
 
-.reviews-article-item {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  height: 100%;
-}
 
 
 
@@ -303,23 +301,21 @@ footer {
 }
 
 .footer-items {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
 
 }
 
 .contact {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 75%;
+  
 
 }
 
 
 .social {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 75%;
+  
 
 }
 
