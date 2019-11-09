@@ -151,21 +151,21 @@ header {
 }
 
 header figure {
-  display: flex;
-  justify-content: center;
+  
 
 }
 
 img .header-items {
-
+  display: flex;
+  justify-content: stretch;
 }
 
 .header-divider {
+  width: 100%;
   
 }
 
 header nav {
-
 
 }
 
@@ -211,8 +211,7 @@ aside {
 }
 
 .form-items {
-  display: flex;
-  justify-content: center;
+
 }
 
 .form-description {
@@ -293,6 +292,8 @@ footer {
 }
 
 .footer-container {
+  width: 55%;
+  margin: 50px 0;
   
 
  
