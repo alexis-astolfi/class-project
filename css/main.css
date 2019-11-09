@@ -291,43 +291,29 @@ input {
 
 */
 
-.mission-container {
+.mission {
   display: flex;
   justify-content: center;
-  
-}
-
-.mission-items {
- 
-}
-
-.mission-items-description {
-  display: flex;
-  justify-content: center;
+  align-items: center;
   flex-flow: row wrap;
-  width: 100%;
 }
 
-.map-container {
+
+.map {
 
 }
-
-.map-items {
-
 }
 
-.contact-container {
+.contact-info {
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 
 }
 
-.contact-items {
-
-}
-
-.contact-items-address {
-
+p .contact-info {
+  margin: 0;
 }
 
 
@@ -339,20 +325,27 @@ input {
 
 -----mobile styles - about, main------*/
 
-.faq-container {
+.faq {
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
-.faq-items {
+.fat .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  margin: 50px 0 0 0;
+}
 
+.faq h2 {
+  margin-bottom: 40px;
 }
 
 .faq-question {
-  display: flex;
-  justify-content: center;
-  flex-flow: column wrap;
-  width: 100%;
+  margin-bottom: 50px;
 
 }
 
