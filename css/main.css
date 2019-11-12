@@ -491,10 +491,10 @@ p .contact-info {
     width: 100%
   }
 
-  .features-item p {
+  /*.features-item p {
     margin: 0 50px;
   }
-
+*/
   .reviews article {
     display: flex;
     justify-content: flex-end;
