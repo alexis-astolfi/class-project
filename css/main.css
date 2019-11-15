@@ -157,7 +157,7 @@ header nav ul {
 
 header nav ul li {
   list-style: none;
-
+}
 
 header nav ul li a {
 
@@ -213,6 +213,7 @@ aside {
   flex-flow: row wrap;
 
 }
+
 /*
 
 .form {
@@ -299,7 +300,6 @@ input {
 
 .map {
 
-}
 }
 
 .contact-info {
@@ -491,10 +491,10 @@ p .contact-info {
     width: 100%
   }
 
-  /*.features-item p {
+  .features-item p {
     margin: 0 50px;
   }
-*/
+
   .reviews article {
     display: flex;
     justify-content: flex-end;
@@ -509,6 +509,19 @@ p .contact-info {
 
   .social-icons p {
     padding: 0 20px;
+  }
+
+  .faq h2 {
+    width: 100%;
+  }
+
+
+  .faq-question {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    flex-basis: 40%;
+    margin: 0;
   }
 
 }
