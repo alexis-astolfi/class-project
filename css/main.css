@@ -438,51 +438,44 @@ p .contact-info {
    ========================================================================== */
 
 @media only screen and (min-width: 768px) {
+
+  .content-wrapper {
+    max-width: 640px;
+    margin: 100px 0;
+  }
+
   header {
-    display: flex;
     justify-content: space-around;
   }
 
   header .content-wrapper {
-    display: flex;
-    justify-content: flex-start;
+    width: 100%;
+    justify-content: space-between;
   }
 
-  header img {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-  }
 
   header nav {
-    width: 100%;
+    width: 20%;
   }
 
   header nav ul {
-    display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
   }
 
-  header nav ul li {
-    padding-right: 50px;
+  .header-divider {
+    display: none;
   }
+
 
   aside .content-wrapper {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-flow: row wrap;
   }
 
-  .form-items {
-    display: flex;
-    flex-flow: column wrap;
-    flex-basis: 50%;
-  }
-
+  .form-items,
   .form {
-    display: flex;
-    flex-flow: column wrap;
-    flex-basis: 50%; 
+    width: 35%;
   }
 
   .form-items p {
@@ -494,8 +487,8 @@ p .contact-info {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-flow: row wrap;
-    flex-basis: 40%;
+    flex-flow: column wrap;
+    flex-basis: 50%;
   }
 
   .features-item p {
@@ -505,22 +498,20 @@ p .contact-info {
   .reviews {
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-  }
-  
-  .reviews-content article {
-    display: flex;
-    justify-content: flex-end;
     flex-flow: row wrap;
   }
 
-  .reviews-content h3,
-  .reviews-content article p {
+  .reviews-article {
     display: flex;
-    justify-items: center;
-    flex-basis: 55%;
-    margin: 20px 0;
+    justify-content: space-between;
+  }
+
+  .reviews-content {
+    width: 49%;
+  }
+
+  .reviews-content h3 {
+    margin: 0;
   }
 
   .footer-items {
@@ -533,9 +524,7 @@ p .contact-info {
     padding: 0 10px;
   }
 
-  .mission h2 {
-    padding-left: 20px;
-  }
+  /*----about----*/
 
   .mission-items {
     display: flex;
@@ -547,22 +536,21 @@ p .contact-info {
     width: 40%;
   }
 
-  .contact-info {
-    display: flex;
-    justify-content: center;
-    flex-flow: column wrap;
-  }
 
   .contact-info .content-wrapper h2 {
-    width: 55%;
-    padding-left: 20px;
+    width: 80%;
   }
 
   .contact-items {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 0;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  /*-----faq-----*/
+
+  .faq .content-wrapper {
+    justify-content: space-between;
   }
 
   .faq h2 {
@@ -570,9 +558,6 @@ p .contact-info {
   }
 
   .faq-question {
-    display: flex;
-    justify-content: flex-start;
-    flex-flow: row wrap;
     flex-basis: 40%;
     margin: 0;
   }
