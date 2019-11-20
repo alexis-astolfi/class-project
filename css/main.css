@@ -104,6 +104,7 @@ html {
 }
 
 body {
+  background-color: #2f342b;
   font-family: "Open Sans", sans-serif;
   font-size: 1em;
 }
@@ -112,6 +113,7 @@ ol,
 ul {
   list-style: none;
   text-decoration: none;
+  text-transform: capitalize;
 
 }
 
@@ -121,15 +123,23 @@ a {
 
 }
 
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.625em;
+  font-weight: lighter;
+}
+
 h2 {
   font-family: "Poppins", sans-serif;
   font-size: 2em;
+  font-weight: lighter;
 }
 
 h3,
 h4 {
   font-family: "Poppins", sans-serif;
   font-size: 1.25em;
+  font-weight: lighter;
 }
 
 img {
@@ -203,6 +213,7 @@ header nav ul {
 
 footer {
   flex-direction: column;
+  color: white;
 }
 
 footer p {
@@ -255,19 +266,9 @@ aside {
 
 }
 
-/*
-
-.form {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
-
-input {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  height: 100%;
+aside .content-wrapper {
+  background-color: #527158;
+  color: white;
 }
 
 /*-----features------*/
@@ -276,6 +277,7 @@ input {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  color: white;
 }
 
 .features h2 {
@@ -310,6 +312,11 @@ input {
   flex-flow: row wrap;
 
 } 
+
+.reviews .content-wrapper {
+  background-color: #2a423a;
+  color: white;
+}
 
 .reviews h2 {
   margin-bottom: 40px;
@@ -384,7 +391,32 @@ p .contact-info {
 
 }
 
-
+/*-----form------*/
+aside .form-items,
+aside .form {
+  margin: 30px 0;
+}
+ 
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+}
+ 
+input[type=button] {
+  width: 100%;
+  padding: 10px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+}
 
 /* ==========================================================================
    Helper classes
@@ -630,7 +662,7 @@ p .contact-info {
   }
 
   .features h2 {
-    width: 70%;
+    width: 80%;
   }
 
   .features-item {
@@ -639,6 +671,11 @@ p .contact-info {
 
   .reviews-content{
     width: 45%;
+  }
+
+  footer .content-wrapper {
+    width: 80%;
+    background-color: #202322;
   }
 
   /*------about------*/
