@@ -99,6 +99,52 @@ textarea {
    ========================================================================== 
 */
 
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
+}
+
+ol,
+ul {
+  list-style: none;
+  text-decoration: none;
+
+}
+
+a {
+  color: #e2e3ed;
+  text-decoration: none;
+
+}
+
+h2 {
+  font-family: "Poppins", serif;
+  font-size: 2em;
+}
+
+h3,
+h4 {
+  font-family: "Poppins", serif;
+  font-size: 1.5em;
+}
+
+img {
+
+}
+
+figure {
+
+}
+
+address {
+  font-style: normal;
+}
+
+
 
 .content-wrapper {
   width: 90%;
@@ -153,14 +199,6 @@ header nav ul {
   display: flex;
   justify-content: space-around;
   width: 100%;
-}
-
-header nav ul li {
-  list-style: none;
-}
-
-header nav ul li a {
-
 }
 
 footer {
@@ -444,6 +482,8 @@ p .contact-info {
     margin: 100px 0;
   }
 
+  /*------header-------*/
+
   header {
     justify-content: space-around;
   }
@@ -466,6 +506,7 @@ p .contact-info {
     display: none;
   }
 
+/*------aside---------*/
 
   aside .content-wrapper {
     display: flex;
@@ -476,12 +517,10 @@ p .contact-info {
   .form-items,
   .form {
     width: 35%;
+    margin: 0;
   }
 
-  .form-items p {
-    padding-right: 20px;
-  }
-  
+/*------features---------*/
 
   .features-item {
     display: flex;
@@ -495,6 +534,7 @@ p .contact-info {
     margin: 0 50px;
   }
 
+/*------reviews-------*/
   .reviews {
     display: flex;
     justify-content: center;
@@ -514,6 +554,8 @@ p .contact-info {
     margin: 0;
   }
 
+/*------foooter------*/
+
   .footer-items {
     display: flex;
     justify-content: space-between;
@@ -528,7 +570,7 @@ p .contact-info {
 
   .mission-items {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
   }
 
@@ -559,22 +601,65 @@ p .contact-info {
 
   .faq-question {
     flex-basis: 40%;
-    margin: 0;
   }
 
 }
 
 @media only screen and (min-width: 1200px) {
 
-  .features-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-    flex-basis: 30%;
+  .content-wrapper {
+    max-width: 960px;
+    margin: 100px 0;
   }
-  
-}
+
+  /*------hero-----*/
+
+  .hero-area h1 {
+    width: 65%;
+  }
+
+  /*-----aside-----*/
+
+  aside .content-wrapper {
+    justify-content: space-around;
+  }
+
+  .form-items,
+  .form {
+    width: 30%;
+  }
+
+  .features h2 {
+    width: 70%;
+  }
+
+  .features-item {
+    flex-basis: 30%;  
+  }
+
+  .reviews-content{
+    width: 45%;
+  }
+
+  /*------about------*/
+  .mission h2,
+  .contact-info h2 {
+    width: 100%;
+  }
+
+  .contact-info h2 {
+    margin-bottom: 10px;
+  }
+
+  /*------faq----------*/
+
+  .faq h2 {
+    width: 100%;
+  }
+
+  .faq-question {
+    flex-basis: 35%;
+  }
 
 @media only screen and (min-width: 35em) {
   /* Style adjustments for viewports that meet the condition */
