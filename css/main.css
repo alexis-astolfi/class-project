@@ -113,7 +113,7 @@ ol,
 ul {
   list-style: none;
   text-decoration: none;
-  text-transform: capitalize;
+  text-transform: uppercase;
 
 }
 
@@ -177,6 +177,8 @@ footer {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #202322;
+  color: white;
 }
 
 header {
@@ -213,7 +215,6 @@ header nav ul {
 
 footer {
   flex-direction: column;
-  color: white;
 }
 
 footer p {
@@ -227,6 +228,7 @@ footer .content-wrapper {
 
 footer .contact {
   margin-bottom: 50px;
+  text-align: center;
 }
 
 footer .social,
@@ -245,8 +247,14 @@ footer .social-icons {
   margin-bottom: 50px;
 }
 
+footer p {
+  padding: 0 1.25em 0 1.25em;
+}
+
 .fab {
-  padding: 0 20px;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #527158;
 }
 
 /*-------- hero area --------*/
@@ -255,6 +263,7 @@ footer .social-icons {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  color: white;
 }
 
 
@@ -263,13 +272,10 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-
-}
-
-aside .content-wrapper {
   background-color: #527158;
   color: white;
 }
+
 
 /*-----features------*/
 
@@ -300,7 +306,7 @@ aside .content-wrapper {
 
 .features p {
   margin: 0;
-
+  text-align: center;
 }
 
 
@@ -310,13 +316,10 @@ aside .content-wrapper {
   display: flex;
   justify-items: center;
   flex-flow: row wrap;
-
-} 
-
-.reviews .content-wrapper {
   background-color: #2a423a;
   color: white;
-}
+} 
+
 
 .reviews h2 {
   margin-bottom: 40px;
@@ -344,6 +347,7 @@ aside .content-wrapper {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  color: white;
 }
 
 .contact-info {
@@ -351,6 +355,7 @@ aside .content-wrapper {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  color: white;
 
 }
 
@@ -384,10 +389,12 @@ p .contact-info {
 
 .faq h2 {
   margin-bottom: 40px;
+  color: white;
 }
 
 .faq-question {
   margin-bottom: 50px;
+  color: white;
 
 }
 
@@ -590,7 +597,7 @@ input[type=button] {
 
   .footer-items {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
   }
 
@@ -604,10 +611,11 @@ input[type=button] {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: white;
   }
 
   .mission-items p {
-    width: 40%;
+    width: 45%;
   }
 
 
@@ -620,6 +628,7 @@ input[type=button] {
     justify-content: space-between;
     align-items: flex-start;
   }
+
 
   /*-----faq-----*/
 
@@ -675,7 +684,6 @@ input[type=button] {
 
   footer .content-wrapper {
     width: 80%;
-    background-color: #202322;
   }
 
   /*------about------*/
