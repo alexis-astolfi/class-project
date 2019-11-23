@@ -371,9 +371,10 @@ aside .form {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
 }
 
-.map .content-wrapper {
+.map figure {
   position: relative;
   padding-bottom: 80%;
   height: 0;
@@ -381,7 +382,7 @@ aside .form {
   overflow: hidden;
 }
 
-.map .iframe {
+.map iframe {
   position: absolute;
   top: 0;
   left: 0;
@@ -680,13 +681,15 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: white;
   }
 
   .mission-items p {
-    width: 45%;
+    width: 40%;
   }
 
+  .map figure {
+    padding-bottom: 45.5%;
+  }
 
   .contact-info .content-wrapper h2 {
     width: 80%;
@@ -698,6 +701,9 @@ img {
     align-items: flex-start;
   }
 
+  .contact-items h4 {
+    font-size: 1.5em;
+  }
 
   /*-----faq-----*/
 
@@ -711,6 +717,12 @@ img {
 
   .faq-question {
     flex-basis: 40%;
+  }
+
+  .faq h4,
+  .faq p {
+    font-size: 0.875em;
+    line-height: 1.125;
   }
 
 }
@@ -734,10 +746,7 @@ img {
   .content-wrapper {
     max-width: 960px;
   }
-
-  header figure {
-    width: 30%:
-  }
+  
 
   /*------hero-----*/
 
@@ -774,13 +783,22 @@ img {
   }
 
   /*------about------*/
+  .map figure {
+    padding-bottom: 37.5%;
+  }
+
   .mission h2,
   .contact-info h2 {
     width: 100%;
+    font-size: 3em;
   }
 
   .contact-info h2 {
     margin-bottom: 10px;
+  }
+
+  .contact-items h4 {
+    font-size: 1.875em;
   }
 
   /*------faq----------*/
