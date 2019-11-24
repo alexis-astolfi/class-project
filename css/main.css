@@ -404,7 +404,7 @@ aside .form {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-
+  background-color: #2a423a;
 }
 
 p .contact-info {
@@ -425,6 +425,7 @@ p .contact-info {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
 }
 
 .faq .content-wrapper {
@@ -629,7 +630,7 @@ img {
 
   .form-items,
   .form {
-    width: 35%;
+    width: 45%;
     margin: 0;
   }
 
@@ -675,14 +676,37 @@ img {
 
 /*------foooter------*/
 
+  footer .content-wrapper {
+    width: 65%;
+    margin: 100px 0;
+  }
+
   .footer-items {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-direction: row;
+  }
+
+  footer .contact {
+    margin-bottom: 0;
+  }
+
+  footer h4 {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+  }
+
+  footer p {
+    line-height: 1.285;
   }
 
   .social-icons p {
     padding: 0 10px;
+  }
+
+  .footer-divider {
+    width: 100%;
   }
 
   /*----about----*/
@@ -694,7 +718,8 @@ img {
   }
 
   .mission-items p {
-    width: 40%;
+    width: 45%;
+    font-size: 1.125em;
   }
 
   .map figure {
@@ -722,11 +747,11 @@ img {
   }
 
   .faq h2 {
-    width: 80%;
+    width: 100%;
   }
 
   .faq-question {
-    flex-basis: 40%;
+    flex-basis: 45%;
   }
 
   .faq h4,
@@ -811,14 +836,26 @@ img {
     font-size: 1.875em;
   }
 
+  .contact-items p {
+    font-size: 1.125em;
+    line-height: 1;
+  }
+
   /*------faq----------*/
 
   .faq h2 {
     width: 100%;
+    font-size: 3em;
   }
 
   .faq-question {
-    flex-basis: 35%;
+    flex-basis: 45%;
+  }
+
+  .faq h4,
+  .faq p {
+    font-size: 1.125em;
+    line-height: 1;
   }
 
 @media only screen and (min-width: 35em) {
