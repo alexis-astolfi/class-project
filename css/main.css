@@ -288,6 +288,10 @@ aside {
   background-color: #527158;
 }
 
+aside .content-wrapper {
+  margin: 20px 0;
+}
+
 aside .form {
   margin-top: 30px;
 }
@@ -305,6 +309,7 @@ aside .form {
 
 .features h2 {
   margin-bottom: 60px;
+  width: 90%;
 }
 
 .features article {
@@ -456,6 +461,7 @@ input[type=button] {
   width: 100%;
   padding: 10px 0;
   margin-top: 10px;
+  margin-bottom: 0;
   background-color: #2a423a;
   font-family: 'Poppins', Helvetica, Arial, sans-serif;
   font-weight: 500;
