@@ -437,7 +437,7 @@ p .contact-info {
 }
 
 .faq h2 {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .faq-question {
@@ -717,9 +717,12 @@ img {
     align-items: center;
   }
 
+  .mission .content-wrapper h2 {
+    width: 95%;
+  }
+
   .mission-items p {
     width: 45%;
-    font-size: 1.125em;
   }
 
   .map figure {
@@ -734,6 +737,7 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    flex-basis: 45%;
   }
 
   .contact-items h4 {
@@ -752,6 +756,7 @@ img {
 
   .faq-question {
     flex-basis: 45%;
+    margin-bottom: 20px;
   }
 
   .faq h4,
@@ -823,22 +828,17 @@ img {
   }
 
   .mission h2,
-  .contact-info h2 {
+  .contact-info .content-wrapper h2 {
     width: 100%;
     font-size: 3em;
   }
 
-  .contact-info h2 {
+  .contact-info .content-wrapper h2 {
     margin-bottom: 10px;
   }
 
   .contact-items h4 {
     font-size: 1.875em;
-  }
-
-  .contact-items p {
-    font-size: 1.125em;
-    line-height: 1;
   }
 
   /*------faq----------*/
